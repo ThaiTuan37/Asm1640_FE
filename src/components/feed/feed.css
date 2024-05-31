@@ -1,0 +1,30 @@
+.feed {
+    flex: 3; /* Adjust this value based on your layout */
+    padding: 20px;
+  }
+  
+  .feedWrapper {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center;
+  }
+  
+  /* Optional styles for better layout separation */
+  .feedWrapper > * {
+    margin-bottom: 20px; /* Add some space between child elements */
+  }
+  
+  .showMoreBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .showMoreBtn:hover {
+    background-color: #0056b3;
+  }
+  

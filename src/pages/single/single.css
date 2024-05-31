@@ -1,0 +1,93 @@
+.single {
+  display: flex;
+  width: 100%;
+}
+
+.singleContainer {
+  flex: 6;
+
+  .top {
+    display: flex;
+    justify-content: space-between; /* Align items to the sides */
+    align-items: flex-start;
+    margin-bottom: 40px;
+
+    .left {
+      flex: 1;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; /* Align items vertically */
+    }
+
+    .button_edit {
+      align-self: flex-end; /* Align button to the end of the container */
+      display: inline-block;
+      padding: 15px 25px;
+      color: #8bc1ff;
+      border: none;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    }
+
+    .item {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+
+    .itemImg {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-right: 30px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .details {
+      .itemTitle {
+        margin-bottom: 10px;
+        color: #555;
+      }
+
+      .detailItem {
+        margin-bottom: 10px;
+        font-size: 14px;
+
+        .itemKey {
+          font-weight: bold;
+          color: gray;
+          margin-right: 5px;
+        }
+
+        .itemValue {
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  .right {
+    flex: 2;
+  }
+
+  .bottom {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 10px 20px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+}

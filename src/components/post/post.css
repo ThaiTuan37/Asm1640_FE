@@ -1,0 +1,117 @@
+.post {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.postTopRight {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Adds space between the date and MoreVert icon */
+}
+
+.postDate {
+  font-size: 12px; /* Adjust the font size as per your preference */
+  color: #aaa; /* Light gray color */
+  margin-right: 10px; /* Adds space to the right of the date */
+}
+
+.postTopRight > svg {
+  color: #aaa; /* Light gray color for the MoreVert icon */
+  cursor: pointer; /* Change cursor to pointer when hovering over the icon */
+}
+.post:hover {
+  transform: translateY(-5px);
+}
+
+.postWrapper {
+  padding: 15px;
+}
+
+.postTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.postUsername {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.postCenter {
+  margin-bottom: 15px;
+}
+
+.postText {
+  font-size: 20px; /* Increase the font size to make it bigger */
+  line-height: 1.5; /* Adjust line height for better readability */
+  margin-top: 15px; /* Add some margin at the top for spacing */
+  margin-bottom: 15px; /* Add some margin at the bottom for spacing */
+}
+
+.postCenter h4 {
+  margin-bottom: 10px;
+}
+
+.postCenter ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.postCenter ul li {
+  margin-bottom: 5px;
+}
+
+.likeIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.postBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postBottomLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postLikeCounter {
+  margin-right: 15px;
+}
+
+.postCommentText {
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.postCommentText:hover {
+  color: #0056b3;
+}
+
+.postBottomRight {
+  display: flex;
+  align-items: center;
+}
